@@ -1,0 +1,11 @@
+{
+    "Title_Mail" : "Changements récents",
+    "Type_Mail" : "Newsletter",
+    "img_header": "https://image.flaticon.com/icons/svg/321/321817.svg",
+    "src_full_img" : "http://yalebooksblog.co.uk/wp-content/uploads/sites/4/2015/05/4010965162_d30fea0560_b.jpeg",
+    "alt_full_im" : "img mail",
+    "text_card": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed.    Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.",
+    "sum_up_article":"l'affichage a été modifié suite aux remontées des utilisateurs. Pour plus d'information je vous invite à vous connecter au wiki de votre logiciel préféré pour le détail de ces évolutions",
+    "title_article":"nouvelles fonctionnalités"
+
+}
