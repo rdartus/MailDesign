@@ -1,0 +1,63 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+// Body Styles 
+body,
+html,
+.body {
+  background: #f3f3f3 !important;
+}
+
+h1 {
+  font-size: 33px;
+  line-height: 38px;
+  font-weight: bold;
+  color: $template-secondary-color;
+  font-family: sans-serif;
+}
+
+.subhead {
+  font-size: 15px;
+  color: #ffffff;
+  font-family: sans-serif;
+  letter-spacing: 10px;
+}
+
+// Header region
+.header-container {
+  background-color: $template-primary-color !important;
+  th {
+    vertical-align: middle;
+  }
+  img {
+    width: 100%;
+    max-width: 90px;
+    margin: auto;
+    padding-bottom: 10px;
+  }
+  >tbody>tr th {
+    padding: 7px 0 0 0;
+  }
+}
+
+// Line section
+.line-separator {
+    border-collapse: collapse;
+    border-bottom : 5px solid $light-gray;
+  
+    & th {
+    vertical-align: middle;
+  }
+  & img {
+    min-width: 100px !important;
+    height: auto;
+    margin: auto;
+  }
+}
+
+// footer region
+.footer {
+  background: $dark-gray;
+  & img {
+    width: 37px
+  }
+}
