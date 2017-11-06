@@ -1706,9 +1706,9 @@ h1 {
 }
 
 .line-separator img {
-  min-width: 100px !important;
-  height: auto;
   margin: auto;
+  max-width: 100px;
+  width: 100%;
 }
 
 .footer {
@@ -1716,7 +1716,7 @@ h1 {
 }
 
 .footer img {
-  width: 37px;
+  width: 37px !important;
 }
  
 

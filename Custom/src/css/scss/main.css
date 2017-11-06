@@ -1,0 +1,139 @@
+/* -------------------------------------
+    BUTTONS
+------------------------------------- */
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 100% !important;
+}
+
+.content {
+  width: 100%;
+  max-width: 600px;
+}
+
+.subhead {
+  font-size: 15px;
+  color: #ffffff;
+  font-family: sans-serif;
+  letter-spacing: 10px;
+}
+
+.h1 {
+  font-size: 33px;
+  line-height: 38px;
+  font-weight: bold;
+}
+
+.h1,
+.h2,
+.bodycopy {
+  color: #0053A1;
+  font-family: sans-serif;
+}
+
+.header {
+  padding: 40px 30px 20px 30px;
+}
+
+.innerpadding {
+  padding: 30px 30px 30px 30px;
+  background-color: #ffffff;
+}
+
+.borderbottom {
+  border-bottom: 1px solid #f2eeed;
+}
+
+.h2 {
+  padding: 0 0 15px 0;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: bold;
+}
+
+.bodycopy {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+img {
+  height: auto;
+}
+
+.footer {
+  padding: 20px 30px 15px 30px;
+}
+
+.footercopy {
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.button {
+  text-align: center;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 0 30px 0 30px;
+}
+
+.button a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.unsubscribe {
+  background-color: #0f262e;
+  border-color: #07141a;
+  text-align: center;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 0 30px 0 30px;
+  margin: 20px 0 0;
+}
+
+.unsubscribe a {
+  color: white;
+  text-decoration: none;
+}
+
+@media only screen and (min-device-width: 601px) {
+  .content {
+    width: 600px !important;
+  }
+  .col425 {
+    width: 425px !important;
+  }
+  .col380 {
+    width: 380px !important;
+  }
+}
+
+@media only screen and (max-width: 550px), screen and (max-device-width: 550px) {
+  body[yahoo] .buttonwrapper {
+    background-color: transparent !important;
+  }
+  body[yahoo] .button a {
+    background-color: #e05443;
+    padding: 15px 15px 13px !important;
+    display: block !important;
+  }
+  body[yahoo] .unsubscribe {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 50px;
+    background: #2f3942;
+    border-radius: 5px;
+    text-decoration: none !important;
+    font-weight: bold;
+  }
+  body[yahoo] .hide {
+    display: none !important;
+  }
+}
+ 
+
+ /*# sourceMappingURL= main.css.map */

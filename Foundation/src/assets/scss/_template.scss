@@ -47,17 +47,17 @@ h1 {
     & th {
     vertical-align: middle;
   }
-  & img {
-    min-width: 100px !important;
-    height: auto;
+  img {
     margin: auto;
+    max-width: 100px;
+    width: 100%;
   }
 }
 
 // footer region
 .footer {
   background: $dark-gray;
-  & img {
-    width: 37px
+  img {
+    width: 37px !important
   }
 }
