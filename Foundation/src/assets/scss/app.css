@@ -40,6 +40,15 @@ body {
   line-height: 100% !important;
 }
 
+img {
+  outline: none;
+  text-decoration: none;
+  -ms-interpolation-mode: bicubic;
+  max-width: 100%;
+  clear: both;
+  display: block;
+}
+
 center {
   width: 100%;
   min-width: 580px;
