@@ -40,16 +40,6 @@ body {
   line-height: 100% !important;
 }
 
-img {
-  outline: none;
-  text-decoration: none;
-  -ms-interpolation-mode: bicubic;
-  width: auto;
-  max-width: 100%;
-  clear: both;
-  display: block;
-}
-
 center {
   width: 100%;
   min-width: 580px;
@@ -1659,14 +1649,17 @@ body.outlook p {
 body,
 html,
 .body {
-  background: #f3f3f3 !important;
+  background-color: #f3f3f3 !important;
+}
+
+h1, h2, h3, h4 {
+  color: #0053A1;
 }
 
 h1 {
   font-size: 33px;
   line-height: 38px;
   font-weight: bold;
-  color: #0053A1;
   font-family: sans-serif;
 }
 
@@ -1678,7 +1671,7 @@ h1 {
 }
 
 .header-container {
-  background-color: #00B1AF !important;
+  background: #00B1AF;
 }
 
 .header-container th {
@@ -1686,9 +1679,6 @@ h1 {
 }
 
 .header-container img {
-  width: 100%;
-  max-width: 90px;
-  margin: auto;
   padding-bottom: 10px;
 }
 
@@ -1707,16 +1697,10 @@ h1 {
 
 .line-separator img {
   margin: auto;
-  max-width: 100px;
-  width: 100%;
 }
 
 .footer {
   background: #8a8a8a;
-}
-
-.footer img {
-  width: 37px !important;
 }
  
 
